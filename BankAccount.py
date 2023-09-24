@@ -26,9 +26,12 @@ class BankAccount:
 
 account1 = BankAccount("12345", "Dan Stagg", 1500)
 account2 = BankAccount("2468", "Paul Simon", 500)
+account3 = BankAccount("76765", "Dick Dastardly", 200)
 
 account1.deposit(500)
 account1.withdraw(500)
+account3.deposit(7000)
+account3.withdraw(3000)
 
 account2.deposit(100.0)
 account2.withdraw(700.0)
