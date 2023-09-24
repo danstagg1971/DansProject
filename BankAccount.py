@@ -1,6 +1,4 @@
 # Bank Account calculator
-# This is for the new branch called Bank Calc Edit 1
-
 
 class BankAccount:
     def __init__(self, account_number, account_holder, initial_balance):
@@ -11,14 +9,14 @@ class BankAccount:
     def deposit(self, amount):
         self.balance += amount
 
-    # fdsfdsjkfdsajfkd
+    # Made this readable
     def withdraw(self, amount):
         if amount <= self.balance:
             self.balance -= amount
         else:
             print("Insufficient funds")
 
-    # gfjdkigjfokidgjofdgofd
+    # Made this even moe readable
     def get_balance(self):
         print(self.balance)
 
@@ -34,6 +32,9 @@ account1.withdraw(500)
 
 account2.deposit(100.0)
 account2.withdraw(700.0)
+
+account1.display_info()
+account2.display_info()
 
 account1.display_info()
 account2.display_info()
