@@ -1,3 +1,7 @@
+# Bank Account calculator
+# This is for the new branch called Bank Calc Edit 1
+
+
 class BankAccount:
     def __init__(self, account_number, account_holder, initial_balance):
         self.account_number = account_number
@@ -17,7 +21,7 @@ class BankAccount:
         print(self.balance)
 
     def display_info(self):
-        print(f"Accout Number: {self.account_number}\nAccount name: {self.account_holder}\nBalance: {self.balance}")
+        print(f"Account Number: {self.account_number}\nAccount name: {self.account_holder}\nBalance: {self.balance}")
 
 
 account1 = BankAccount("12345", "Dan Stagg", 1500)
